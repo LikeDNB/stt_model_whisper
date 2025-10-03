@@ -5,7 +5,7 @@ import tempfile
 
 app = FastAPI()
 
-model = whisper.load_model("small")  # Можно tiny/base/small/medium/large
+model = whisper.load_model("tiny")  # Можно tiny/base/small/medium/large
 
 @app.post("/transcribe")
 async def transcribe_audio(file: UploadFile = File(...)):
