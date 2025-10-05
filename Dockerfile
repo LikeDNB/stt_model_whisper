@@ -1,4 +1,4 @@
-FROM pytorch/pytorch:2.2.0-cpu
+FROM pytorch/pytorch:2.2.0-cpu-py3.10
 
 # Устанавливаем только runtime зависимости
 RUN apt-get update && apt-get install -y --no-install-recommends ffmpeg && \
