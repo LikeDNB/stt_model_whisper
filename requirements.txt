@@ -1,0 +1,7 @@
+numpy<2
+torch
+torchvision
+git+https://github.com/openai/whisper.git
+uvicorn
+fastapi
+python-multipart
